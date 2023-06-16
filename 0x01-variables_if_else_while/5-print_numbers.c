@@ -10,7 +10,8 @@
 
 int main(void)
 {
-	for (int i = 0; i < 11; i++)
+	int i = 0;
+	while (i < 11)
 		printf("%i",i);
 	printf("\n");
 
