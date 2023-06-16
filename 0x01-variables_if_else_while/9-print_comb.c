@@ -11,7 +11,6 @@
 int main(void)
 {
 	int ch = 48;
-	char CH = 'a';
 
 	/* prints a-z*/
 	while (ch <= 57)
