@@ -15,7 +15,7 @@ int main(void)
         while (ch <= 'z')
         {
 		if(ch == 'q' || ch == 'e')
-			return
+			continue
 		else
                 putchar(ch);
                 ch++;
