@@ -14,7 +14,7 @@ int main(void)
 	char CH = 'A';
 
 	/* prints a-z*/
-	while (ch <= 'Z')
+	while (ch <= 'z')
 	{
 		putchar(ch);
 		ch++;
