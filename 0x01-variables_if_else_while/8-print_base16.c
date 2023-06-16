@@ -10,13 +10,13 @@
 
 int main(void)
 {
-	char ch = '0';
+	int ch = 48;
 	char CH = 'a';
 
 	/* prints a-z*/
-	while (ch <= '9')
+	while (ch <= 57)
 	{
-		putchar(ch + '0');
+		putchar(ch);
 		ch++;
 	}
 
