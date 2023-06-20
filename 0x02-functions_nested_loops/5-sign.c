@@ -5,7 +5,7 @@
  *
  * @n: checks input of function
  *
- * Return: returns 1 if `n` is positive or `0` if `n` is zero or `-1` 
+ * Return: returns 1 if `n` is positive or `0` if `n` is zero or `-1`
  * if n is negative
 */
 
