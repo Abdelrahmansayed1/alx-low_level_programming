@@ -16,6 +16,7 @@ void times_table(void)
 			number = row * col;
 			printf("%i, ",number);
 		}
+		printf("\n");
 	}
 }
 
