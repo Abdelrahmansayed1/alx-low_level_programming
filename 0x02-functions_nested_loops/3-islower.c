@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - print form a to z 10 times
+ * _islower - check if alphabet is lower case
  *
 */
 
 int _islower(int c)
 {
-	if (97 <= c && c <= 122)
+	if (c >= 97 && c <= 122)
 	{
 		return (1);
 	}
