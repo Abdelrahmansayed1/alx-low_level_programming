@@ -1,3 +1,4 @@
+#include <string.h>
 #include "main.h"
 
 /**
@@ -15,5 +16,5 @@ int main(void)
 	for(i = 0; i < strlen(word); i++)
 		putchar(word[i]);
 	
-	return ;
+	return 0;
 }
