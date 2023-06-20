@@ -16,7 +16,7 @@ void times_table(void)
 		{
 			printf(", ");
 			number = row * col;
-			if (number < 9)
+			if (number <= 9)
 				printf(" ");
 			else	
 				printf("%i",number);
