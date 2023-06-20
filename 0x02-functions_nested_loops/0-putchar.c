@@ -12,10 +12,10 @@
 
 int main(void)
 {
-	int i ;
+	int i;
 	char word[] = "_putchar";
 
-	for(i = 0; i < MAXSTRING; i++)
+	for (i = 0; i < MAXSTRING; i++)
 	{
 		if (word[i] == '\0')
 		{
@@ -25,5 +25,5 @@ int main(void)
 		else
 			putchar(word[i]);
 	}
-	return 0;
+	return (0);
 }
