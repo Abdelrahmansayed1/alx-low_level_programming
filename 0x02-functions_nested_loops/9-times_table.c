@@ -14,7 +14,10 @@ void times_table(void)
 		for ( col = 0; col <= 9; col++)
 		{
 			number = row * col;
-			printf("%i,  ",number);
+			if (number <= 9)
+				printf("%i,  ",number);
+			else
+				printf("%i, ",number);
 		}
 		printf("\n");
 	}
