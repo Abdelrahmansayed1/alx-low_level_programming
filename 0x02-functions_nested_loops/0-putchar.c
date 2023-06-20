@@ -1,6 +1,4 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - entry point
@@ -17,5 +15,5 @@ int main(void)
 	for(i = 0; i < strlen(word); i++)
 		putchar(word[i]);
 	
-	return 0;
+	return ;
 }
