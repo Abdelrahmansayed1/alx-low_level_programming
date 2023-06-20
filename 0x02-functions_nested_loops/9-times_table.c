@@ -19,7 +19,7 @@ void times_table(void)
 			if (number <= 9)
 				printf(" ");
 			else	
-				printf("%i",number);
+				printf("");
 
 			printf("%i",number);
 		}
