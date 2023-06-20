@@ -11,8 +11,8 @@ void times_table(void)
 
 	for (row = 0; row <= 9; row++)
 	{
-		printf("%i",0);
-		for ( col = 1; col <= 9; col++)
+		printf("%i", 0);
+		for (col = 1; col <= 9; col++)
 		{
 			printf(", ");
 			number = row * col;
@@ -21,8 +21,7 @@ void times_table(void)
 			else
 			{
 			}
-			
-			printf("%i",number);
+			printf("%i", number);
 		}
 		printf("\n");
 	}
