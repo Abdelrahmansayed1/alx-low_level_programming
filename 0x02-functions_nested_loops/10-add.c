@@ -3,7 +3,9 @@
 /**
  * add - returns summation
  *
- * @a,b: checks input of function
+ * @a: checks input of function
+ *
+ * @b: checks input of function
  *
  * Return: returns summation of `a` and `b`
 */
