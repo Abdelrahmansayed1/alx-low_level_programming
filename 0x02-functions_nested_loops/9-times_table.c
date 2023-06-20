@@ -18,8 +18,10 @@ void times_table(void)
 			number = row * col;
 			if (number <= 9)
 				printf(" ");
-			else		
-
+			else
+			{
+			}
+			
 			printf("%i",number);
 		}
 		printf("\n");
