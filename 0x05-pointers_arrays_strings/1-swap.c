@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * swap - function that swaps the values of two integers
+ * swap_int - function that swaps the values of two integers
  *
- * @n: represents space
+ * @a: represents saddress of a
+ *
+ * @b: represents address of b
  *
  * Return: always 0 (success)
 */
