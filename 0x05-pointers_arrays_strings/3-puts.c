@@ -10,10 +10,6 @@
 
 void _puts(char *str)
 {
-	while (*str != '!')
-	{
-		printf("%s", str);
-		str++;
-	}
+	printf("%s", str);
 	printf("\n");
 }
