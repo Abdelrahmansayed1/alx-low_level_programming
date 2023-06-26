@@ -10,26 +10,14 @@
 
 void print_rev(char *s)
 {
-	int count, c;
-	char *begin, *end, temp;
+	int i = 0;
 
-	while (*s != '\0')
+	while(s[i])
+		i++;
+
+	while(i--)
 	{
-		count++;
-		s++;
+		printf("%c",s[i]);
 	}
-	
-	begin = s;
-	end = s + count -1;
-
-	for (c = 0; c < (count - 1) / 2; c++)
-	{
-		temp = *end;
-		*end = *begin;
-		*begin = temp;
-
-		begin++;
-		end--;
-	}
-	printf("%s", s);
+	printf("\n");
 }
