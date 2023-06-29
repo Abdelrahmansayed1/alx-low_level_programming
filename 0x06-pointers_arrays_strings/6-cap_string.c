@@ -32,7 +32,7 @@ char *cap_string(char *str)
 	char *ptr = s;
 	int foundDelimit = 1;
 
-	while (str[i] != '\0')
+	while (*str)
 	{
 		if (isDelimeter(*str))
 		{
@@ -40,12 +40,12 @@ char *cap_string(char *str)
 		}
 		else if (isLower(*s) && foundDelimit)
 		{
-			str[i] -= 32;
+			*s -= 32;
 			foundDelimit = 0;
 		}
 		else
 			foundDelimit = 0;
-		i++;
+		s++;
 	}
 	return (ptr);
 }
