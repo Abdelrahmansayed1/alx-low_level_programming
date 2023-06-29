@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _leet - function that concatenate two string.
+ * _leet: function that concatenate two string.
  *
  * @c: represents string 1
  *
