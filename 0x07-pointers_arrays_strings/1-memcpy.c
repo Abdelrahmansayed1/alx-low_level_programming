@@ -9,7 +9,7 @@
  *
  * @n: number of bytes to be copied
  *
- * return: pointer to string
+ * Return: pointer to string
 */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
