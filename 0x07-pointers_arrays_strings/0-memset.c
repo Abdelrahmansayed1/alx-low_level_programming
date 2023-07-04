@@ -1,6 +1,5 @@
 #include "main.h"
-#include "string.h"
-#include "stdlib.h"
+
 /**
  * _memset - function fills the first n bytes of the memory area pointed to by s with the constant byte
  *
@@ -15,13 +14,12 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	char *a = malloc(256);
-	strcpy(a, s);
+	unsigned int i;
 
-	for (unsigned int i = 0; i < n; i++)
+	for (i = 0; n > 0; i++, n--)
 	{
-		a[i] = b;
+		s[i] = b;
 	}
 
-	return (a);
+	return (s);
 }
