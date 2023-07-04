@@ -15,6 +15,9 @@ char *_strstr(char *haystack, char *needle)
 	char *p1, *p2, *p3;
 	int i, j, flag;
 
+	p1 = haystack;
+	p2 = needle;
+
 	for (i = 0; i < strlen(haystack); i++)
 	{
 		if(*p1 == *p2)
