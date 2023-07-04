@@ -34,7 +34,7 @@ char *_strstr(char *haystack, char *needle)
 					break;
 			}
 			p2 = needle;
-			if (j == strlen(sub))
+			if (j == strlen(needle))
 			{
 				flag = 1;
 				return (needle);
