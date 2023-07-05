@@ -15,12 +15,12 @@ int is_prime_number(int n)
 
 int prime(int n, int val)
 {
-	if (val == n)
+	if (val >= n && n > 1)
 		return (1);
-	else if (n % val == 0)
+	else if (n % val == 0 || n <= 1)
 	{
 		return (0);
 	}
-	else (n % val != 0)
+	else
 		return (prime(n, val + 1);
 }
