@@ -9,15 +9,6 @@
  * Return: square root of number
 */
 
-/**
- * square - function returns square
- *
- * @n: number
- *
- * @val: square value
- *
- * return: sqrt
-*/
 
 int square(int n, int val);
 int _sqrt_recursion(int n)
