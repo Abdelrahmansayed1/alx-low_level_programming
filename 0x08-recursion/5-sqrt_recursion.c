@@ -11,29 +11,16 @@
 
 int _sqrt_recursion(int n)
 {
-	int i;
-	bool isSqrt;
-	
-	isSqrt = false;
-	for (i = 0; i < n; i++)
-	{
-		if (n / i == i)
-		{
-			isSqrt = true;
-			break;
-		}
-	}
+	return (square(n, 1));
+}
 
-	if (!isSqrt)
+
+int squre(int n, int val)
+{
+	if (val * val == n)
+		return (val);
+	else if (val * val < n)
+		return (square(n, val + 1));
+	else
 		return (-1);
-	else if (n == 1)
-		return (1);
-	for ( i = 2; i < n; i++)
-	{
-		if (n % i == 0)
-		{
-			return (i * _sqrt_recursion(n / i));
-		}
-	}
-	return (0);
 }
