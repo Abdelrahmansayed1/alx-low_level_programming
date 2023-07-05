@@ -10,7 +10,7 @@
 int prime(int n, int val);
 int is_prime_number(int n)
 {
-	return int prime(n, 2);
+	return prime(n, 2);
 }
 
 int prime(int n, int val)
