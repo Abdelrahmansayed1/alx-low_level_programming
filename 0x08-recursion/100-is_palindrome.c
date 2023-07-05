@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * is_palindrome - function that returns 1 if a string is a palindrome and 0 if not
+ * is_palindrome - function 1 if a string is a palindrome and 0 if not
  *
  * @s: string
  *
@@ -13,12 +13,14 @@ int check(char *s, int start, int end, int mod);
 int is_palindrome(char *s)
 {
 	int end = last_index(s);
+
 	return (check(s, 0, end - 1, end % 2));
 }
 
 int last_index(char *s)
 {
 	int n = 0;
+
 	if (*s == '\0')
 		n += last_index(s + 1) + 1;
 
