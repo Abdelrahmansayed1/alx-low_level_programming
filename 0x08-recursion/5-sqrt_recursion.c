@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdbool.h>
 
 /**
  * _sqrt_recursion - Write a function that returns sqyare root of number
