@@ -15,6 +15,13 @@ int _sqrt_recursion(int n)
 	return (square(n, 1));
 }
 
+/**
+ * square - function returns square
+ *
+ * @val: square value
+ *
+ * return: sqrt
+*/
 
 int square(int n, int val)
 {
