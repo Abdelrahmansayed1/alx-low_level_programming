@@ -22,5 +22,5 @@ int prime(int n, int val)
 		return (0);
 	}
 	else
-		return (prime(n, val + 1);
+		return (prime(n, val + 1));
 }
