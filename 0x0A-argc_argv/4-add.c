@@ -9,7 +9,7 @@
  *
  * @argv: list
  *
- * return: 0
+ * Return: 0
 */
 
 int main(int argc, char *argv[])
@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 
 	if (argc == 0)
 	{
-		printf ("0\n");
+		printf("0\n");
 	}
 	else
 	{
