@@ -7,7 +7,7 @@
  *
  * @argv: list
  *
- * return: 0
+ * Return: 0
 */
 
 int main(int argc, char const *argv[])
