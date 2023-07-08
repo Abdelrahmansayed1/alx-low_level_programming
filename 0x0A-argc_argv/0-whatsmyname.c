@@ -3,6 +3,8 @@
 /**
  * main - prints program name
  *
+ * Description: 'the program's description'
+ *
  * @argc: int
  *
  * @argv: list
