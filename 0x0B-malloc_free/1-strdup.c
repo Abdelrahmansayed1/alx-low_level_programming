@@ -14,7 +14,11 @@ char *_strdup(char *str)
 {
 	int length = strlen(str);
 	char *s = (char*)malloc(length);
-	int i;	
+	int i;
+
+	if (str == NULL)
+		return (0);
+
 	for (i = 0; i < length; i++)
 	{
 		s[i] = str[i];
