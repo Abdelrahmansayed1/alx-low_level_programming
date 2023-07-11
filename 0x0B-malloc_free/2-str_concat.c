@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * *_str_cconcat - Write a function that returns a concatenated string
+ * *_str_concat - Write a function that returns a concatenated string
  *
  * @s1: string 1
  *
@@ -16,7 +16,7 @@ char *str_concat(char *s1, char *s2)
 {
 	int size1 = strlen(s1);
 	int length = strlen(s1) + strlen(s2);
-	char*s = (char *)malloc(length * sizeof(char) + 1);
+	char*s = (char *)malloc(length *sizeof(char) + 1);
 	int i;
 
 	if (s1 == NULL)
