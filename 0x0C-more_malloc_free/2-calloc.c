@@ -13,10 +13,11 @@
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	int *m = malloc(nmemb * size);
+	int *m = malloc(size * nmemb);
 
 	if (m == 0)
 		return (NULL);
-	else
-		return (m);
+	
+	memset(m, 0, sizeof(int) * nmemb);
+	return (m);
 }
