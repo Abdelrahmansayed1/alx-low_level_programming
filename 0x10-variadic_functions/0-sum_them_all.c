@@ -5,6 +5,8 @@
  *
  * @n: number of args
  *
+ * @...: integers
+ *
  * Return: sum
 */
 
