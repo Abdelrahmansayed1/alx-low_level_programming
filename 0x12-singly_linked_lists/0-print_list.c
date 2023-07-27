@@ -4,7 +4,7 @@
 /**
  * print_list - print list items
  *
- * @*h: list
+ * @h: list
  *
  * Return: number of nodes
 */
