@@ -10,11 +10,11 @@
  * Return: the address of the new element, or NULL if it fails
  */
 
-list_t *add_node(list_t **head, const char *str)
+listint_t *add_node(listint_t **head, const int n)
 {
-	list_t *new;
+	listint_t *new;
 
-	new = malloc(sizeof(list_t));
+	new = malloc(sizeof(listint_t));
 	if (!new)
 		return (NULL);
 
