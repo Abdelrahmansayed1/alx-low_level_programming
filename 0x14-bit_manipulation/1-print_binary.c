@@ -14,14 +14,14 @@ void print_binary(unsigned long int n)
 	{
 		if (n & 1l << --bit)
 		{
-			printf('1');
+			printf("1");
 			printed++;
 		}
 		else if (printed)
 		{
-			printf('0');
+			printf("0");
 		}
 	}
 	if (!printed)
-		printf('0');
+		printf("0");
 }
