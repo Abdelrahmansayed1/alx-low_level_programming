@@ -1,7 +1,7 @@
 /**
  * binary_to_unit - function converts binary to int
  *
- * *b: string
+ * b: string
  *
  * Return: number
 */
