@@ -20,9 +20,9 @@ int create_file(const char *filename, char *text_content)
 			length++;
 	}
 
-	fd = open(filename, O_CREAT | O_RDWR | Q_TRUNC, 0600);
+	fd = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
 
-	w = write(fd, text_content, len);
+	w = write(fd, text_content, length);
 
 	if (fd == -1 || w == -1)
 		return (-1);
