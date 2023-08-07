@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 #define USAGE "usage: cp file_from file_to\n"
 #define ERR_NOREAD "error: can't read from file %s\n"
